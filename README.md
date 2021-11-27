@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi 👋
 
 - 🔭 I’m currently working on university projects.
 - 🌱 I’m currently learning Machine Learning, Applied Data Analysis, Markov Chains, Scala, Stochastic Calculus and Finance. 
