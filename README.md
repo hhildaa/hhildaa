@@ -1,7 +1,8 @@
 ### Hi 👋
 
 - 🔭 I’m currently working on university projects.
-- 🌱 I’m currently learning Machine Learning, Applied Data Analysis, Markov Chains, Scala, Stochastic Calculus and Finance. 
+- 🌱 I’m currently learning Applied Data Analysis, Markov Chains, Scala, Machine Learning, Stochastic Calculus and Finance. 
+- ⚡ Number of plants in my room: 11.
 
 <!--
 **hhildaa/hhildaa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
