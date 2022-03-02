@@ -1,7 +1,8 @@
 ### Hi 👋
 
 - 🔭 I’m currently working on university projects.
-- 🌱 I’m currently learning Applied Data Analysis, Markov Chains, Scala, Machine Learning, Stochastic Calculus and Finance. 
+- 🌱 I’m currently learning: SQL, Advanced Algorithms, Derivatives, Data visualization, Optimization for ML, Large-scale data science for real-world data and Signal processing.
+- Former classes: Applied Data Analysis, Markov Chains, Scala, Machine Learning, Stochastic Calculus and Finance. 
 - ⚡ Number of plants in my room: 11.
 
 <!--
