@@ -18,4 +18,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hhildaa&layout=compact&theme=dark)<!--&hide=jupyter%20notebook,matlab,r,tex)-->
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hhildaa&layout=compact&theme=light)<!--&hide=jupyter%20notebook,matlab,r,tex)-->
