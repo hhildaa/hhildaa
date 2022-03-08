@@ -4,8 +4,10 @@ This CSS governs the appearance of our site.
 You can find the basic concepts of CSS here: https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/How_CSS_works
 */
 :root {
-	--theme-color-light: rgb(175, 155, 184);
-	--theme-color-dark: rgb(0, 122, 50);
+	--theme-color-purple: rgb(201, 136, 207);
+	--theme-color-purple-light: rgb(243, 203, 247);
+	--theme-color-yellow: rgb(204, 201, 15);
+	--theme-color-yellow-light: rgb(250, 249, 193);
  	--dark-background-color: rgb(7, 32, 17);
 }
 
@@ -54,7 +56,7 @@ The various units of measurement available in CSS:
 
 /* Links: apply our theme color and remove underline */
 a {
-	color: rgb(175, 155, 184);
+	color: var(--theme-color-purple);
 	text-decoration: none;
 }
 
@@ -66,7 +68,7 @@ p {
 /* Titles: set color and sizes */
 h1, h2, h3, h4, h5, h6
 {
-	color: rgb(175, 155, 184);
+	color: var(--theme-color-purple);
 }
 h1 { font-size: 2rem; }
 h2 { font-size: 1.75rem; }
@@ -119,8 +121,8 @@ nav li {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
 
-	background-color: var(--theme-color-dark);
-	background: linear-gradient(45deg, rgb(152, 118, 172), var(--theme-color-dark));
+	background-color: var(--theme-color-purple);
+	background: linear-gradient(45deg, var(--theme-color-purple), var(--theme-color-yellow));
 
 	/* Center the title using flexbox */
 	display: flex;
@@ -144,9 +146,36 @@ nav li {
 
 	background-color: rgba(0, 122, 50, 0.1);
 
-	border: 2px solid var(--theme-color-dark);
+	border: 2px solid var(--theme-color-yellow);
 	border-radius: 2rem;
 }
+
+table, th, td {
+	color: black;
+	padding: 5px;
+	border: 1px solid;
+	border-collapse: collapse;
+  }
+  /*th {
+	background-color: var(--theme-color-purple);
+  }
+  tr:nth-child(even) {
+	background-color: var(--theme-color-yellow-light);
+  }
+  tr:nth-child(odd) {
+	background-color: var(--theme-color-purple-light);
+  }*/
+
+  tr:nth-child(even) {
+	background-color: rgba(250, 249, 193, 0.4);
+  }
+  tr:nth-child(odd) {
+	background-color: rgba(243, 203, 247, 0.4);
+  }
+  
+  th:nth-child(even),td:nth-child(even) {
+	background-color: rgba(204, 201, 15, 0.4);
+  }
 
 .viz-row {
 	width: 100%;
@@ -158,7 +187,7 @@ nav li {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 
-	background-color: rgb(152, 118, 172),;
+	background-color: var(--theme-color-purple),;
 }
 
 figure embed {
