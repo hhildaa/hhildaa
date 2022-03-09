@@ -1,5 +1,7 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
 
 <head>
 	<meta charset="utf-8">
@@ -24,27 +26,149 @@
 	</ul>
 </nav>
 
-<header class="title-row">
-	<h1> My Personal Page </h1>
-</header>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="aboutme.css">
+<style>
+	html,body,h1,h2,h3,h4,h5,h6 {font-family: serif, sans-serif}
+</style>
+</head>
+<body class="w3-light-grey">
 
-<main class="width-limited">
-	<h4>Introduction</h4>
-	<p>
-    blabla
-	</p>
-	<!--<p>
-	Read more <a href="description.html">about our model</a>
-	</p>-->
-<div class="box">
-	<h4>Bla</h4>
-	<p>
-	blabla
-	</p>
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <!--<div class="w3-display-container">
+          <img src="/aboutme_images/Tablokep.jpeg" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2>Hilda Abigél Horváth</h2>
+          </div>
+        </div>-->
+        <div class="w3-container">
+          <!--<p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Designer</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Lausanne, CH</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>ex@mail.com</p>
+          <hr>-->
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+
+          <p>Photography</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
+              <div class="w3-center w3-text-white">80%</div>
+            </div>
+          </div>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+          <p>English</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:95%"></div>
+          </div>
+		  <p>Hungarian</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <p>German</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:30%"></div>
+          </div>
+          <p>French</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:10%"></div>
+          </div>
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>QUANTITATIVE FINANCE DEVELOPER INTERNSHIP / Morgan Stanley</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2021 April – September <!--<span class="w3-tag w3-teal w3-round">Current</span>--></h6>
+          <p> Pricing and modelling CDS index options.
+		<hr>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>MSc in Data Science</b></h5>
+		  <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><b>EPFL (Swiss Federal Institute of Technology Lausanne)</b></h6>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i> 2021 – Ongoing </h6>
+          
+		  <h6 class="w3-opacity">Relevant experience</h6>
+		  <ul>
+			<li>Completed relevant courses: Machine Learning, Applied Data Analysis. </li>
+			<li> courses: Advanced algorithms, Data visualization (HTML, CSS, JavaScript), Optimization for machine
+			learning, Signal processing for communications, Introduction to database systems ( SQL ).</li>
+			<li>PYTHON GIT Group projects using several Python libraries including NumPy, Pandas, and MatplotLib.</li>
+			<li>SCALA Learned on a thorough functional programming course.</li>
+		  	</ul>
+			<h6 class="w3-opacity">Projects</h6>
+			<ul>
+				<li>Recreation the process of finding Higgs particles
+				by applying basic ML techniques to CERN particle
+				accelerator data.</li>
+				<li>Classification of ordinal outcomes for the analysis of injury severity using machine learning methods.</li>
+				<li>Application of Monte-Carlo methods to community detection.</li>
+				<li>Analysis of the appearance of natural disasters in the Quotebank.</li>
+			</ul>
+			<h6 class="w3-opacity">Minor in Financial Engineering</h6>
+			Completed courses: Stochastic Calculus, Introduction to Finance. Ongoing course: Derivatives
+			<hr>
+			<h5 class="w3-opacity"><b>BSc in mathematics</b></h5>
+			<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>  <b>ELTE (Eötvös Loránd University) </b></h6>
+			<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i> 2018-2021</h6>
+			<ul>
+				<li>Applied Mathematics specialisation.</li>	
+				<li>Excellent qualification of diploma.</li>
+				<li>Undergraduate Thesis:
+					"Flow algorithms with non-linear object functions". </li>
+			</ul>
+			<h6 class="w3-opacity">Relevant experience</h6>
+			<ul>
+				<li>PYTHON Implemented for example the simplex algorithm, preflow-push-relabel algorithm and modelling combinatorical games.</li>
+				<li>C++ In connection with my thesis, I coded uniform balanced flow algorithm from scratch using
+					C++.</li>
+				<li>
+					MATLAB Made numerical analysis algorithm
+					implementations (for example the Householder transformation) and programs to visualise 3D shapes.
+				</li>
+			</ul>
+        </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
 </div>
-</main>
 
-<footer></footer>
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+</footer>
 
 </body>
 </html>

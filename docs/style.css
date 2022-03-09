@@ -4,11 +4,25 @@ This CSS governs the appearance of our site.
 You can find the basic concepts of CSS here: https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/How_CSS_works
 */
 :root {
-	--theme-color-purple: rgb(201, 136, 207);
+	/*--theme-color-purple: rgb(201, 136, 207);
 	--theme-color-purple-light: rgb(243, 203, 247);
 	--theme-color-yellow: rgb(204, 201, 15);
 	--theme-color-yellow-light: rgb(250, 249, 193);
  	--dark-background-color: rgb(7, 32, 17);
+	--background: rgb(224, 200, 168);*/
+	/*--theme-color-purple: rgb(53, 41, 82);
+	--theme-color-purple-light: rgb(234, 226, 255);
+	--theme-color-yellow: rgb(185, 183, 18);
+	--theme-color-yellow-light: rgb(247, 246, 215);
+ 	--dark-background-color: rgb(46, 49, 19);
+	--background: rgb(23, 9, 43);*/
+	--theme-color-purple: rgb(53, 41, 82);
+	--theme-color-purple-light: rgb(71, 46, 134);
+	--theme-color-yellow: rgb(185, 183, 18);
+	--theme-color-yellow-light: rgb(236, 232, 91);
+ 	--dark-background-color: rgb(221, 230, 146);
+	--background: white;
+
 }
 
 /*
@@ -31,6 +45,7 @@ html, body, figure {
 	padding: 0;
 	margin: 0;
 	border: 0;
+	background-color: var(--background)
 }
 
 /* Default font and size */
@@ -56,7 +71,7 @@ The various units of measurement available in CSS:
 
 /* Links: apply our theme color and remove underline */
 a {
-	color: var(--theme-color-purple);
+	color: var(--theme-color-purple-light);
 	text-decoration: none;
 }
 
@@ -68,7 +83,7 @@ p {
 /* Titles: set color and sizes */
 h1, h2, h3, h4, h5, h6
 {
-	color: var(--theme-color-purple);
+	color: var(--theme-color-purple-light);
 }
 h1 { font-size: 2rem; }
 h2 { font-size: 1.75rem; }
@@ -104,7 +119,9 @@ nav ul {
 	*/
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: flex-start;
+	justify-content: flex-end;
+
+	background-color: var(--background);
 }
 
 /* Space between links */
@@ -144,7 +161,7 @@ nav li {
 	padding-right: 2rem;
 	margin-bottom: 1rem;
 
-	background-color: rgba(0, 122, 50, 0.1);
+	background-color: var(--dark-background-color);
 
 	border: 2px solid var(--theme-color-yellow);
 	border-radius: 2rem;
@@ -155,16 +172,9 @@ table, th, td {
 	padding: 5px;
 	border: 1px solid;
 	border-collapse: collapse;
+
+	text-align: center;
   }
-  /*th {
-	background-color: var(--theme-color-purple);
-  }
-  tr:nth-child(even) {
-	background-color: var(--theme-color-yellow-light);
-  }
-  tr:nth-child(odd) {
-	background-color: var(--theme-color-purple-light);
-  }*/
 
   tr:nth-child(even) {
 	background-color: rgba(250, 249, 193, 0.4);
