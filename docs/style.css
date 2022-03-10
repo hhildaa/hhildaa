@@ -52,6 +52,7 @@ html, body, figure {
 body {
 	font-family: serif;
 	font-size: 1.1rem;
+	color: var(--theme-color-purple);
 }
 
 /*
@@ -78,6 +79,7 @@ a {
 /* Justify paragraphs */
 p {
 	text-align: justify;
+	color: black;
 }
 
 /* Titles: set color and sizes */
@@ -164,8 +166,24 @@ nav li {
 	background-color: var(--dark-background-color);
 
 	border: 2px solid var(--theme-color-yellow);
-	border-radius: 2rem;
+	border-radius: 1rem;
 }
+
+.code {
+	width: 80%;
+	display: flex;
+	align-items: center;
+
+	font-family: Consolas,"courier new";
+	color:var(--theme-color-purple);
+	padding-left: 2rem;
+	padding-right: 2rem;
+	margin-bottom: 1rem;
+
+	background-color: var(--dark-background-color);
+
+	border-radius: 0,1rem;
+  }
 
 table, th, td {
 	color: black;

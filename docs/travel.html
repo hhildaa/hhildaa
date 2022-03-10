@@ -25,26 +25,95 @@
 </nav>
 
 <header class="title-row">
-	<h1> Travelling </h1>
+	<h1> My Travel Photos </h1>
 </header>
 
-<main class="width-limited">
-	<h1>Europe</h1>
-	<h3>
-    London
-	</h3>
-	<!--<p>
-	Read more <a href="description.html">about our model</a>
-	</p>-->
-<div class="box">
-	<h4>Bla</h4>
-	<p>
-	blabla
-	</p>
-</div>
-</main>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Travel photos</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="aboutme.css">
+<style>
+body,h1 {font-family: serif}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+</head>
+<body>
 
-<footer></footer>
+<!-- Sidebar -->
+<!--<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About</a>
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Photos</a>
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Shop</a>
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contact</a>
+  </div>
+</nav>-->
+
+<!-- !PAGE CONTENT! -->
+<!--<div class="w3-content" style="max-width:1500px">-->
+
+<!-- Header -->
+<!--<div class="w3-opacity">
+<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+<div class="w3-clear"></div>
+<header class="w3-center w3-margin-bottom">
+  <h1><b>PHOTOLIO</b></h1>
+  <p><b>A template made by w3.css for photographers.</b></p>
+  <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>
+</header>
+</div>-->
+
+<!-- Photo Grid -->
+<h1>2022 London</h1>
+<div class="w3-row" id="myGrid" style="margin-bottom:128px">
+  <div class="w3-third">
+    <img src="/photos/22london/20220224_123110.jpg" style="width:100%">
+	<img src="/photos/22london/IMG_5432.CR2" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="/photos/22london/20220224_130346.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="/photos/22london/20220225_182420.jpg" style="width:100%">
+  </div>
+</div>
+
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+ 
+<script>
+// Toggle grid padding
+function myFunction() {
+  var x = document.getElementById("myGrid");
+  if (x.className === "w3-row") {
+    x.className = "w3-row-padding";
+  } else { 
+    x.className = x.className.replace("w3-row-padding", "w3-row");
+  }
+}
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.width = "100%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
 
 </body>
 </html>
+
