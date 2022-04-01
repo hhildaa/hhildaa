@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<title>Welcome to My Page</title>
-	<meta name="description" content="My GIT Notes">
+	<meta name="description" content="My cheat sheets">
 	<meta name="author" content="Hilda Abigél">
 
 	<link rel="stylesheet" href="../style.css">
@@ -18,16 +18,72 @@
 	<ul class="width-limited">
 		<li><a href="index.html">Home</a></li>
         <li><a href="school.html">School</a></li>
+		<li><a href="../cheatsheet.html">Cheat sheets</a></li>
 		<li><a href="aboutme.html">About me</a></li>
 	</ul>
 </nav>
 
-<header class="title-row">
-	<h1> My cheetsheets </h1>
-</header>
+<div class="sidenav">
+	<a href="#links">Link collection</a>
+	<a href="#coding">Coding</a>
+	<a href="#python">Python libraries</a>
+	<a href="#git">Git</a>
+	<a href="#web">Web</a>
+  </div>
 
 <main class="width-limited">
-	<h1>GIT</h4>
+	<h1>My cheat sheets </h1>
+	<h2>Link collection </h2>
+	<a name="links"></a>
+
+	<table style="width:50%">
+		<!--<caption>Master courses: Semester 2</caption>-->
+		<tr style="height:20px" >
+		  <th>LINKS</th>
+		</tr>
+		<tr>
+			<th><a href="https://docs.python.org/3.10/"> Python</a></th>
+		</tr>
+
+	</table>
+
+	
+
+	<h5>Coding</h5>
+	<a name="coding"></a>
+	<ul>
+		<li>Python</li>
+		<li>C++</li>
+	</ul>
+
+	<h5>Python libraries</h5>
+	<a name="python"></a>
+	<ul>
+		<li>Numpy</li>
+		<li>Scikit-Learn</li>
+		<li>statsmodel</li>
+		<li>MatplotLib</li>
+		<li>SciPy</li>
+		<li>Plotly</li>
+		<li>PyTorch</li>
+		<li>Pandas</li>
+	</ul>
+
+	<h5>Git</h5>
+	<a name="git"></a>
+	<ul>
+		<li>Git</li>
+	</ul>
+
+	<h5>Web development</h5>
+	<a name="web"></a>
+	<ul>
+		<li>CSS3</li>
+		<li>HTML5</li>
+		<li>JavaScript</li>
+	</ul>
+	
+	<h2>GIT</h2>
 	<h4>GIT MERGE WORKFLOW</h4>
 <pre class="code">
 <code># Start a new feature
@@ -43,12 +99,13 @@ git checkout main
 git merge new-feature
 git branch -d new-feature</code>
 </pre>
+
 <h4>GIT REMOVE FILE</h4>
 <pre class="code code-wrap">
 <code>git rm file1.txt
 git commit -m &quot;remove file1.txt&quot;
 git push origin branch_name</code></pre>
-</div>
+
 </main>
 
 <footer></footer>

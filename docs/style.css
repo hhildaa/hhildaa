@@ -3,13 +3,23 @@
 This CSS governs the appearance of our site.
 You can find the basic concepts of CSS here: https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/How_CSS_works
 */
-:root {
+/*:root {
 
 	--theme-color-purple: rgb(53, 41, 82);
 	--theme-color-purple-light: rgb(71, 46, 134);
 	--theme-color-yellow: rgb(185, 183, 18);
 	--theme-color-yellow-light: rgb(236, 232, 91);
  	--dark-background-color: rgb(221, 230, 146);
+	--background: rgb(252, 253, 237);
+
+}*/
+:root {
+
+	--theme-color-purple: rgb(62, 61, 63);
+	--theme-color-purple-light: rgb(112, 108, 121);
+	--theme-color-yellow: rgb(253, 250, 43);
+	--theme-color-yellow-light: rgb(236, 232, 91);
+ 	--dark-background-color: rgb(54, 54, 53);
 	--background: rgb(252, 253, 237);
 
 }
@@ -25,6 +35,28 @@ to
 * {
 	box-sizing: border-box;
 }
+
+.sidenav {
+	height: 100%;
+	margin: 0;
+	width: 130px;
+	position: fixed;
+	z-index: 1;
+	top: 0px;
+	left: 10px;
+	overflow-x: hidden;
+	padding: 8px 0;
+	background-color: var(--dark-background-color);
+	color: var(--theme-color-yellow-light);
+  }
+  
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 15px;
+	display: block;
+	color: var(--theme-color-yellow-light);
+  }
 
 /*
 Make the document fill the whole viewport, this overrides any weird defaults that browsers might have.
@@ -79,12 +111,14 @@ h1, h2, h3, h4, h5, h6
 h1 { font-size: 2rem; }
 h2 { font-size: 1.75rem; }
 h3 { font-size: 1.75rem; }
-h4 { font-size: 1.25rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1.0rem; }
+
 
 /* Top navigation bar */
 nav {
 	width: 100%;
-
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 }
@@ -92,6 +126,11 @@ nav {
 /* Make the links in the navbar bold */
 nav a {
 	font-weight: bold;
+}
+
+a:hover, a:active {
+color: var(--theme-color-purple);
+text-decoration: underline;
 }
 
 /* Style of the list of links in the navbar */
@@ -112,7 +151,6 @@ nav ul {
 	flex-flow: row wrap;
 	justify-content: flex-end;
 
-	background-color: var(--background);
 }
 
 /* Space between links */
@@ -121,42 +159,18 @@ nav li {
 }
 
 
-/* The box with a dark background and our site's title */
-.title-row {
-	width: 100%;
-
-	/* Space above and below the title */
-	padding-top: 2rem;
-	padding-bottom: 2rem;
-
-	background-color: var(--theme-color-purple);
-	background:  var(--theme-color-yellow);
-
-	/* Center the title using flexbox */
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-/* Style of the title inside the box */
-.title-row h1 {
-	font-size: 2.5rem;
-	color: white;
-	font-variant: small-caps;
-
-	text-shadow: black 0 0 0.6rem;
-}
-
 .box {
 	padding-left: 2rem;
 	padding-right: 2rem;
 	margin-bottom: 1rem;
 
-	background-color: var(--dark-background-color);
+	background-color: var(--theme-color-yellow-light);
 
-	border: 2px solid var(--theme-color-yellow);
-	border-radius: 1rem;
+	border: 2px solid var(--dark-background-color);
+	border-radius: 3px;
 }
+
+
 .code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
 .code,
 code {
@@ -183,7 +197,6 @@ code {
 }
 
 table, th, td {
-	color: black;
 	padding: 5px;
 	border: 1px solid;
 	border-collapse: collapse;
@@ -195,13 +208,15 @@ table, th, td {
 	background-color: rgba(250, 249, 193, 0.4);
   }
   tr:nth-child(odd) {
-	background-color: rgba(243, 203, 247, 0.4);
+	background-color: rgba(81, 77, 82, 0.4);
   }
   
   th:nth-child(even),td:nth-child(even) {
-	background-color: rgba(204, 201, 15, 0.4);
+	background-color: rgba(247, 244, 94, 0.4);
   }
 
+
+/* Needed ? */
 .viz-row {
 	width: 100%;
 	/* Center the title using flexbox */
