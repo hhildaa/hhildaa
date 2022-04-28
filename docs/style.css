@@ -185,11 +185,11 @@ table, th, td {
 	background-color: rgba(250, 249, 193, 0.4);
   }
   tr:nth-child(odd) {
-	background-color: rgba(81, 77, 82, 0.4);
+	background-color: rgba(81, 77, 82, 0.197);
   }
   
   th:nth-child(even),td:nth-child(even) {
-	background-color: rgba(247, 244, 94, 0.4);
+	background-color: rgba(247, 245, 94, 0.142);
   }
 
 
