@@ -1,37 +1,14 @@
-
-/*
-This CSS governs the appearance of our site.
-You can find the basic concepts of CSS here: https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/How_CSS_works
-*/
-/*:root {
-
-	--theme-color-purple: rgb(53, 41, 82);
-	--theme-color-purple-light: rgb(71, 46, 134);
-	--theme-color-yellow: rgb(185, 183, 18);
-	--theme-color-yellow-light: rgb(236, 232, 91);
- 	--dark-background-color: rgb(221, 230, 146);
-	--background: rgb(252, 253, 237);
-
-}*/
 :root {
 
 	--theme-color-purple: rgb(62, 61, 63);
 	--theme-color-purple-light: rgb(112, 108, 121);
-	--theme-color-yellow: rgb(253, 250, 43);
+	--theme-color-yellow: rgba(252, 250, 135, 0.466);
 	--theme-color-yellow-light: rgb(236, 232, 91);
  	--dark-background-color: rgb(54, 54, 53);
 	--background: rgb(252, 253, 237);
 
 }
 
-/*
-This makes the border and padding be counted as part of the element's size.
-https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model
-It switches from
-	https://mdn.mozillademos.org/files/13647/box-model-standard-small.png
-to
-	https://mdn.mozillademos.org/files/13649/box-model-alt-small.png
-*/
 * {
 	box-sizing: border-box;
 }
