@@ -24,7 +24,7 @@ My GitRepos:
 | Topic | Repository Link|
 | ------------- |:-------------:|
 | Data Analysis | [Semester Project on migration modelling](https://github.com/hhildaa/epfl-semester-project) |
-| ML | [Classification of ordinal outcomes for the analysis of injury severity](https://github.com/hhildaa/ML4science_project) [Implementing ML algos from scratch](https://github.com/hhildaa/epfl-ml-project1)|
+| ML | [Classification of ordinal outcomes for the analysis of injury severity](https://github.com/hhildaa/ML4science_project) <br> [Implementing ML algos from scratch](https://github.com/hhildaa/epfl-ml-project1)|
 |Web & DataVis | [Data visualiztaion of hotels & reviews](https://github.com/hhildaa/epfl-datavis-project)|
 | Markov Chains | [Community Detection](https://github.com/hhildaa/epfl-markov-chains-project) |
 | Pricing | [Convertible Bonds](https://github.com/hhildaa/epfl-derivatives-convertible-bonds) |
