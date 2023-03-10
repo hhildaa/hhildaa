@@ -1,8 +1,7 @@
 ### Hi 👋
 
-- 🔭 I’m currently working on university projects.
-- 🌱 I’m currently learning: Foundations of Data Science, Computational Complexity, Computational Finance, Blockchains and Quantitative Risk Management
-- Former classes: Applied Data Analysis, Markov Chains, Scala, Machine Learning, Stochastic Calculus and Finance, Database Systems (SQL), Advanced Algorithms, Derivatives, Data visualization, Optimization for ML, Large-scale data science for real-world data and Signal processing. 
+- 🔭 I’m currently working on my master thesis on "ESG criteria quantification for the real estate market".
+- 🌱 Former classes: Foundations of Data Science, Computational Complexity, Computational Finance, Blockchains and Quantitative Risk Management, Applied Data Analysis, Markov Chains, Scala, Machine Learning, Stochastic Calculus and Finance, Database Systems (SQL), Advanced Algorithms, Derivatives, Data visualization, Optimization for ML, Large-scale data science for real-world data and Signal processing. 
 - ⚡ Number of plants in my room: 14.
 
 <!--
@@ -19,6 +18,18 @@ Here are some ideas to get you started:
 -->
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hhildaa&layout=compact&theme=light&hide=jupyter%20notebook)<!--,matlab,r,tex)-->
+
+My GitRepos: 
+
+| Topic | Repository Link|
+| ------------- |:-------------:|
+| Data Analysis | [Semester Project on migration modelling](https://github.com/hhildaa/epfl-semester-project) |
+| ML | [Classification of ordinal outcomes for the analysis of injury severity](https://github.com/hhildaa/ML4science_project) [ML](https://github.com/hhildaa/epfl-ml-project1)|
+|Web & DataVis | [Data visualiztaion of hotels & reviews](https://github.com/hhildaa/epfl-datavis-project)|
+| Markov Chains | [Community Detection](https://github.com/hhildaa/epfl-markov-chains-project) |
+| Pricing | [Convertible Bonds](https://github.com/hhildaa/epfl-derivatives-convertible-bonds) |
+| NLP & Data Analysis | [Natural disasters in QuoteBank](https://github.com/hhildaa/epfl-ada-project) |
+| Computer Vision | [Different optimization methods for ML](https://github.com/hhildaa/epfl-optml-project) |
 
 My experience: 
 
@@ -49,6 +60,5 @@ My experience:
 <!--![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)-->
 
 ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
-![Spotify](https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white)
-
+<!--![Spotify](https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white)-->
 
